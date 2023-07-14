@@ -21,7 +21,7 @@ public class UniversityTest {
     private final Student student = new Student("Евгений", true);
     @Mock
     private StudentValueGenerator studentValueGenerator;
-    @InjectMocks                  // Аннотация заеняет блок @BeforeEach
+    @InjectMocks                  // Аннотация заменяет блок @BeforeEach
     private University university;
 
 //    @BeforeEach
